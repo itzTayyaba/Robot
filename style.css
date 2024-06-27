@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+width: 100%;
+height: 100%;
+}
+
+.banner {
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(to right, rgb(239, 214, 139), rgba(238, 247, 255, 0.893));
+    background-position: center;
+    background-size: cover;
+}
+
+.robot {
+    float: right;
+    padding-right:10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.navbar {
+    /* width: 30px; */
+    margin: auto;
+    padding: 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 6%;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #110f0f;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(to right, #C02425 0%, #C02425 10%, #F0CB35 100%);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+background: linear-gradient(to right, #C02425 0%, #C02425 10%,  #C02425 100%,  #F0CB35 10%  );
+;}
+
+button {
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 3%;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fdb8f4;
+    background: linear-gradient(to right, #C02425 0%, #C02425 10%, #F0CB35 100%);
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    font-size: larger;
+    margin-right: 9%;
+} */
+
+.button1:hover{
+    border-color: salmon;
+}
+
+h1 {
+    text-align: left;
+    font-weight: bold;
+    font-size: 60px;
+    padding-left: 8%;
+    padding-top: 8%;
+}
+
+p{
+padding-top: 4%;
+font-size: 22px;
+padding-left: 8%;
+padding-bottom: 3%;
+}
+
+/* @media only screen and (min-width: 320px) */
+/* { */
+    /* .navbar {
+        width: 200px;
+        margin: auto;
+        padding: 1px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 100x;
+        font-size: 10px;
+    }
+    .robot{
+        width: 10%;
+        height: 3%;
+    }
+    h1{
+        font-size: 20px;
+        padding-right: 1px;
+    }
+    .main-content{
+width: 250px;
+height: 250vh;
+p{
+    font-size: 10px;
+    padding-right: 1px;
+}
+    }
+    .robot{
+        width: 50px;
+        height: 50px;
+    }
+} */
+.main-content{
+    background-image: linear-gradient(to right, rgb(239, 214, 139), rgba(238, 247, 255, 0.893));
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 199vh;
+}
+
+.logo{
+    padding-left: 3%;
+    width: 150px;
+    height: 40px;
+}
+.button1{
+    
+    width: 200px;
+    padding-top: 15px ;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px #fdb8f4;
+    background: linear-gradient(to right, #C02425 0%, #C02425 10%, #F0CB35 100%);
+    color: #ffffff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    float: initial;
+    margin-left: 8%;
+    font-size: large;
+    transition: 1s to right ease-in-out;
+} 
+    
+.button1:hover {
+    color: #fff;
+    border: salmon;
+    background: linear-gradient(to right, #C02425 0%, #C02425 10%, #F0CB35 100%);
+} 
+
+/* shafiqa iqbal, sania mirza ,
